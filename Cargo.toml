@@ -1,6 +1,11 @@
 [package]
 name = "rg"
+version = "0.2.0"
 description = "You don't want this crate - you want the `ripgrep` crate"
-license = "CC-BY-NC-ND-2.5"
-version = "0.1.0"
+license = "Unlicense"
+repository = "https://github.com/BurntSushi/rg-cratesio-typosquat"
 edition = "2021"
+
+[[bin]]
+name = "rg"
+path = "main.rs"
