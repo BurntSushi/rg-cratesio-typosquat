@@ -1,9 +1,8 @@
-This repository hosts the source for the [`rg` crate on crates.io][rgcrate].
-Its purpose is to typo/alias-squat ripgrep, as `cargo install rg` is believed
-to be a common error. What you really want is `cargo install ripgrep`.
+This is the [`rg` crate][rgcrate] that always fails to compile and suggests
+that folks run `cargo install ripgrep` instead. Namely, while `rg` is the
+command name of ripgrep, `ripgrep` is the proper crate name.
 
-If you attempt `cargo install rg`, then it will result in a compilation error
-that suggests using `cargo install ripgrep` instead. Since it results in a
+Note that if you did run `cargo install rg`, then since it results in a
 compilation error, there is no need to uninstall the `rg` crate first.
 
 ## FAQ
