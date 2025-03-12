@@ -9,3 +9,6 @@ edition = "2021"
 [[bin]]
 name = "rg"
 path = "main.rs"
+
+[features]
+pcre2 = []
