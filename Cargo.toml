@@ -1,6 +1,6 @@
 [package]
 name = "rg"
-version = "0.2.2"
+version = "0.2.1"
 description = "You don't want this crate - you want the `ripgrep` crate"
 license = "Unlicense"
 repository = "https://github.com/BurntSushi/rg-cratesio-typosquat"
